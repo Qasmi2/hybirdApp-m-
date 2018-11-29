@@ -1,0 +1,12 @@
+ 
+    .bg-color{
+        /* --background: var(--ion-background-image,#000); */
+        --background: var(--ion-background-image, url('../../assets/images/splash.png'))  no-repeat center center fixed; 
+        --background-size: var(--ion-background-size,'cover');
+    
+    }
+  .text{
+    margin: 30px;
+    top: 200px;
+  }
+ 

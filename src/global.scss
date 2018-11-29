@@ -9,3 +9,41 @@
 @import '~@ionic/angular/css/text-alignment.css';
 @import '~@ionic/angular/css/text-transformation.css';
 @import '~@ionic/angular/css/flex-utils.css';
+
+    font-face {
+    font-family: 'GothicBold';
+    src: url("./assets/font/Gotham-Bold.ttf");
+    }
+    @font-face{
+    font-family: 'GothicMedium';
+    src: url("./assets/font/Gotham-Medium.ttf");
+    }
+    @font-face{
+        font-family: 'GothicBook';
+        src: url("./assets/font/Gotham-Book.ttf");
+    }
+    @font-face{
+        font-family: 'GothicBlack';
+        src: url("./assets/font/Gotham-Black.ttf");
+    }
+    
+    body, span, button, h1, h2, h3, h4, h5, h6, p, ion-item, ion-title {
+    font-family: 'GothicMedium' !important;
+    }
+    b{
+        font-family: 'GothicBlack' !important;
+    }
+    .listborder{
+        --border-width: 0 0 0 0 !important;
+      }
+    .border2{
+        margin-top: 10px;
+        /* --border-width: -85px !important; */
+        /* --border-color: #b74c4c !important; */
+        /* font-size: 10px; */
+        border: 2px solid #fff;
+        border-radius: 15px;
+        --box-shadow: 0;
+        padding: 0 25px;
+        background-color: #26827e !important;
+      }

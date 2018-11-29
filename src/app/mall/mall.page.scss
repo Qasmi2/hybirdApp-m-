@@ -1,8 +1,7 @@
 
- 
     .bg-color{
         /* --background: var(--ion-background-image,#000); */
-        --background: var(--ion-background-image, url('../../assets/images/bgh.png'))  no-repeat center center fixed; 
+        --background: var(--ion-background-image, url('../../assets/images/bgmall.png'))  no-repeat center center fixed; 
         --background-size: var(--ion-background-size,'cover');
     
     }
@@ -12,9 +11,8 @@
       top:0px;
   }
   .text{
-      margin:60px;
       top:70px;
   }
   .top{
-      padding-top:100px !important;
+      padding-top:250px !important;
   }

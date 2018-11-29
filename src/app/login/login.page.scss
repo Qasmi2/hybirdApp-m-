@@ -1,0 +1,36 @@
+
+    @font-face{
+    font-family: 'GothicMedium';
+    src: url("../../assets/font/Gotham-Medium.ttf")
+    }
+    .bg-color{
+        /* --background: var(--ion-background-image,#000); */
+        --background: var(--ion-background-image, url('../../assets/images/LOGIN-SCREEN.png'))  no-repeat center center fixed; 
+        --background-size: var(--ion-background-size,'cover');
+    }
+    .logo{
+        margin:85px;
+    }
+    .top{
+        margin-top:25px;
+    }
+    .input{
+        --border-color: white !important;
+        padding: 5px 16px;
+       
+    }   
+    .input-text{
+        color:white !important;
+        font-size: 22px !important;
+        font-family: 'GothicMedium' !important;
+    } 
+    .text-color{
+        color:white !important;
+        font-family: 'GothicMedium' !important;
+        padding: 0 20px;
+    } 
+   .button-style{
+    padding: 0 60px;
+    border: 1px solid white;
+    border-radius: 10px;
+   }

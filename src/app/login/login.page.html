@@ -1,0 +1,36 @@
+<ion-content padding class="bg-color">
+
+  <ion-grid>
+    <ion-row col-sm-12 justify-content-center>
+      <ion-col col-sm-12 class="logo">
+        <img src="../../assets/images/M BIG.png">
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <ion-grid class="top">
+    <ion-row>
+      <ion-col col-12>
+        <ion-item class="input">
+          <ion-input required type="text" placeholder="Username" class="input-text"></ion-input>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-12>
+        <ion-item class="input">
+          <ion-input required type="password" placeholder="Password" class="input-text"> </ion-input>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-sm-12>
+        <div float-right class="text-color">
+          Forget Password
+        </div>
+      </ion-col>
+    </ion-row>
+    <ion-row justify-content-center align-items-center [style.height]="'100%'">
+      <ion-button outline="false" class="border2" large="true">login</ion-button>
+    </ion-row>
+  </ion-grid>
+</ion-content>

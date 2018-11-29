@@ -1,0 +1,65 @@
+.styling{
+    margin: 0 !important;
+    border-radius: 0 !important;
+}
+.motiviro-pic1{
+    // position: relative !important;
+    width:100%;
+
+}
+.top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    width:60px;
+}
+.bottom-center{
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:white !important;
+}
+.description{
+   --background: var(--ion-background-image,#26827e); 
+   color:white;
+}
+
+@font-face {
+    font-family: 'GothicMedium';
+    src: url("../../assets/font/Gotham-Medium.ttf");
+    }
+    
+    body, span, button, h1, h2, h3, h4, h5, h6, p, ion-item, ion-title {
+    font-family: 'GothicMedium' !important;
+    }
+ol{
+    padding : 0 20px;
+}
+li{
+    font-family: 'GothicMedium' !important;
+    font-size:10px !important;
+}
+.line{
+    width: 1px;
+    height: 100px;
+}
+
+
+
+/*==============input field==================*/
+.top{
+    margin-top:25px;
+}
+.input{
+    --border-color:#26827e  !important;
+    padding: 0px 40px;
+    --border-width: 1px !important;
+    --border-radius: 25px !important; 
+   
+}   
+.input-text{
+    color:#26827e  !important;
+    // font-size: 22px !important;
+    font-family: 'GothicMedium' !important;
+} 
