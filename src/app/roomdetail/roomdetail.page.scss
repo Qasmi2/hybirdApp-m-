@@ -1,3 +1,23 @@
+    @font-face {
+    font-family: 'GothicMedium';
+    src: url("../../assets/font/Gotham-Medium.ttf");
+    }
+    @font-face {
+        font-family: 'GothicBold';
+        src: url("../../assets/font/Gotham-Bold.ttf");
+        }
+    .font-style{
+        font-family: 'GothicBold' !important;
+        color:#26827e;
+        font-size:20px;
+    }
+.menuicon{
+    position: absolute;
+    left: 10px;
+    // bottom: 162px;
+    top:30px;
+    width:54px;
+}
 .styling{
     margin: 0 !important;
     border-radius: 0 !important;
@@ -15,24 +35,17 @@
 }
 .bottom-center{
     position: absolute;
-    bottom: 0%;
+    // bottom: 40%;
+    top:175px;
     left: 50%;
     transform: translate(-50%, -50%);
     color:white !important;
+    text-align: center;
 }
 .description{
    --background: var(--ion-background-image,#26827e); 
    color:white;
-}
-
-@font-face {
-    font-family: 'GothicMedium';
-    src: url("../../assets/font/Gotham-Medium.ttf");
-    }
-    
-    body, span, button, h1, h2, h3, h4, h5, h6, p, ion-item, ion-title {
-    font-family: 'GothicMedium' !important;
-    }
+}  
 ol{
     padding : 0 20px;
 }
@@ -56,6 +69,8 @@ li{
     padding: 0px 40px;
     --border-width: 1px !important;
     --border-radius: 25px !important; 
+    --min-height: 39px !important;
+    
    
 }   
 .input-text{
