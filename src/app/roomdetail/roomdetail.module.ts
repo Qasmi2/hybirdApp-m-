@@ -23,4 +23,4 @@ const routes: Routes = [
   ],
   declarations: [RoomdetailPage]
 })
-export class RoomdetailPageModule {}
+export class RoomdetailPageModule { }
