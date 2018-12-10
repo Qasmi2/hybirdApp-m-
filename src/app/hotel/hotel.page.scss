@@ -1,0 +1,18 @@
+
+    .bg-color{
+        /* --background: var(--ion-background-image,#000); */
+        --background: var(--ion-background-image, url('../../assets/images/bgmall.png'))  no-repeat center center fixed; 
+        --background-size: var(--ion-background-size,'cover');
+    
+    }
+  .top-left{
+      position: absolute;
+      right:0px;
+      top:0px;
+  }
+  .text{
+      top:70px;
+  }
+  .top{
+      padding-top:250px !important;
+  }

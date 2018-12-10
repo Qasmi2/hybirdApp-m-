@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { DetailService } from '../../app/detail.service';
 
 @Component({
   selector: 'app-home',
@@ -7,4 +8,18 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
+  products: any;
+  constructor(public detail: DetailService) { }
+  getDetail(): void {
+    this.detail.getDetail().subscribe(response => {
+      console.log(response);
+      this.products = response;
+
+    });
+  }
+
+
+  ngOnInit() {
+    this.getDetail();
+  }
 }

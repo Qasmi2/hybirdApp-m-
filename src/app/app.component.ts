@@ -27,11 +27,11 @@ export class AppComponent {
     {
       title: 'SETTINGS',
       url: ''
-    },
-    {
-      title: 'HELP',
-      url: ''
     }
+    // {
+    //   title: 'HELP',
+    //   url: ''
+    // }
   ];
 
   constructor(

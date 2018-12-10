@@ -34,7 +34,8 @@ const routes: Routes = [
   },
   { path: 'login', loadChildren: './login/login.module#LoginPageModule' },
   { path: 'splash', loadChildren: './splash/splash.module#SplashPageModule' },
-  { path: 'roomdetail', loadChildren: './roomdetail/roomdetail.module#RoomdetailPageModule' }
+  { path: 'roomdetail', loadChildren: './roomdetail/roomdetail.module#RoomdetailPageModule' },
+  { path: 'hotel', loadChildren: './hotel/hotel.module#HotelPageModule' }
 
 ];
 
