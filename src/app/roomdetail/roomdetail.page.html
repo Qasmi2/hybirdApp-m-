@@ -74,5 +74,9 @@
     <ion-row justify-content-center align-items-center [style.height]="'100%'">
       <ion-button outline="false" class="border2" large="true">Booking</ion-button>
     </ion-row>
+    <ion-row *ngFor="let record of detail">
+      {{record.property_img_cord}}
+    </ion-row>
   </ion-grid>
+
 </ion-content>
