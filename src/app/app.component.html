@@ -5,15 +5,18 @@
 
         <img src="../assets/images/M SMALL.png" width="60" [style.margin]="'0px 0 0 20px'" />
         <ion-grid>
-          <ion-row justify-content-center align-items-center [style.height]="'100%'">
-            <ion-avatar [ngStyle]="{width:'120px',height:'120px'}">
-              <img src="../assets/images/4948899-profile-pictures.jpg" />
-            </ion-avatar>
-          </ion-row>
-          <ion-row justify-content-center align-items-center padding>
-            <b>FULLL NAME</b>
-            <b>___________________</b>
-          </ion-row>
+          <div *ngFor="let record of profiling">
+            <ion-row justify-content-center align-items-center [style.height]="'100%'">
+              <ion-avatar [ngStyle]="{width:'120px',height:'120px'}">
+                <img src="{{record.profile_img}}/4279c.png" />
+              </ion-avatar>
+            </ion-row>
+            <ion-row justify-content-center align-items-center padding>
+              <b>{{record.fullname}}</b>
+              <b>___________________</b>
+
+            </ion-row>
+          </div>
         </ion-grid>
         <ion-grid>
           <ion-row justify-content-center align-items-center [style.height]="'100%'">

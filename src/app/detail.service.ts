@@ -26,8 +26,8 @@ export class DetailService {
   //   mode: 'W9WqcA7U2KA%3D'
   // }
 
-  user_mobile: string = '456789';
-  user_pass: string = 'ellight';
+  user_mobile: string = '';
+  user_pass: string = '';
   mode: string = 'W9WqcA7U2KA%3D';
 
 
@@ -46,16 +46,16 @@ export class DetailService {
   //login
   login(user_mobile: string, user_pass: string, mode: string) {
 
-    // this.loginData.user_mobile = user_mobile;
-    // this.loginData.user_pass = user_pass;
-    // this.loginData.mode = mode;
-    return this.http.get('http://192.168.0.127/montviro/api/?mode=W9WqcA7U2KA=&user_mobile=456789&user_pass=ellight')
-      .subscribe(data => {
-        console.log(data);
-      }, error => {
-        console.log(error);
+    this.user_mobile = user_mobile;
+    this.user_pass = user_pass;
+    this.mode = mode;
+    return this.http.get('http://192.168.0.127/montviro/api/?mode=W9WqcA7U2KA=&user_mobile=' + this.user_mobile + '&user_pass=' + this.user_pass);
+    //   .subscribe(data => {
+    //   console.log(data);
+    // }, error => {
+    //   console.log(error);
 
-      });
+    // });
   }
 
 }

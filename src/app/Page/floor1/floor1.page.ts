@@ -29,7 +29,7 @@ export class Floor1Page implements OnInit {
 
   }
   propertyDetail(): void {
-    
+
     this.floor1Service.propertyDetail(211);
 
   }

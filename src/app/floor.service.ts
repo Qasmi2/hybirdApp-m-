@@ -34,10 +34,10 @@ export class FloorService {
     return this.http.get('http://192.168.0.127/montviro/api/?mode=Bi5HcfAFuK8=&prop_reg_id=1&f_id=5');
   }
   propertyDetail(prop_id) {
-    this.urls = 'http://192.168.0.127/montviro/api/?mode=4jqgaBByTNo=&prop_id=';
-
-    console.log(this.urls + prop_id);
-    return this.http.get(this.urls + prop_id)
+    this.urls = 'http://192.168.0.127/montviro/api/?mode=4jqgaBByTNo=&prop_id=' + prop_id;
+    return this.http.get(this.urls)
+      // console.log(this.urls + prop_id);
+      // return this.http.get(this.urls + prop_id)
       .subscribe(data => {
         console.log(data);
       }, error => {
